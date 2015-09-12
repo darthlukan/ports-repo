@@ -11,3 +11,4 @@
 .*~$
 .git$
 .git/*$
+README.md
