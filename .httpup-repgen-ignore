@@ -9,6 +9,6 @@
 /CVS/.*
 ^CVS/.*
 .*~$
-.git$
-.git/*$
+\.git$
+\.git/*$
 README.md
