@@ -1,0 +1,8 @@
+#
+# /etc/ports/darthlukan.httpup: darthlukan's port collection
+#
+
+ROOT_DIR=/usr/ports/darthlukan
+URL=http://ports.brianctomlinson.com
+
+# End of file

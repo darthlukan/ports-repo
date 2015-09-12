@@ -1,0 +1,16 @@
+#!/bin/bash
+# Description: A console file manager with VI key bindings.
+# URL:         http://nongnu.org/ranger
+# Maintainer:  Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:  python
+# Optional  :  chardet w3m transmission exiftool
+
+name=ranger
+version=1.7.1
+release=1
+source=(https://github.com/hut/$name/archive/v$version.zip)
+
+build() {
+   cd $name-$version
+   make DESTDIR="$PKG" install
+}

@@ -1,0 +1,22 @@
+# Description: Desktop-independent theme switcher for GTK+. Part of the LXDE project.
+# URL:         http://git.lxde.org/gitweb/?p=lxde/lxappearance.git
+# Maintainer:  Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:  gtk3 intltool dbus
+
+name=lxappearance
+version=0.6.1
+release=1
+source=(http://downloads.sourceforge.net/lxde/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+
+    ./configure --sysconfdir=/etc \
+        --prefix=/usr \
+        --enable-dbus \
+        --enable-gtk3
+
+    make
+    make DESTDIR=$PKG install
+    rm -rf $PKG/usr/share/locale
+}

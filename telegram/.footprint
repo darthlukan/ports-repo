@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/telegram
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/telegram/
+-rwxr-xr-x	root/root	usr/lib/telegram/Telegram
+-rwxr-xr-x	root/root	usr/lib/telegram/Updater
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rwxr-xr-x	root/root	usr/share/applications/telegram.desktop

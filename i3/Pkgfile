@@ -1,0 +1,14 @@
+# Description: dynamic tiling X11 window manager
+# URL: http://i3wm.org/
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: startup-notification xorg-xcb-util keysyms xorg-xcb-util-wm xorg-xcb-util-cursor yajl libev pango libxkbcommon
+
+name=i3
+version=4.10.4
+release=1
+source=(http://i3wm.org/downloads/i3-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	make DESTDIR=$PKG install
+}
