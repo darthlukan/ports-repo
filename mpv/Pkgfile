@@ -1,0 +1,20 @@
+# Description: General purpose video player based on MPlayer and mplayer2.
+# URL: http://mpv.io
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: ffmpeg docutils
+# Optional: libquvi libdvdread libdvdnav
+
+name=mpv
+version=0.10.0
+release=1
+source=(https://github.com/mpv-player/$name/archive/v$version.zip)
+
+build() {
+	cd $name-$version
+
+    ./bootstrap.py
+    ./waf configure --prefix=/usr --mandir=/usr/man
+    ./waf build
+    ./waf install --destdir=$PKG
+    rm -rf $PKG/usr/share/doc
+}
