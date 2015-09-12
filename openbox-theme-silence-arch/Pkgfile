@@ -1,0 +1,16 @@
+# Description: An openbox 3 theme.
+# URL: https://github.com/darthlukan/silence-arch
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: openbox
+
+name=openbox-theme-silence-arch
+version=1.0
+release=1
+source=(https://github.com/darthlukan/silence-arch/archive/$version.zip)
+
+build() {
+	cd silence-arch-$version
+    rm -rf .git .gitignore README.md LICENSE PKGBUILD screenshot_1.png silence-arch.obt
+    mkdir -p $PKG/usr/share/themes/silence-arch
+    cp -R * $PKG/usr/share/themes/silence-arch
+}
