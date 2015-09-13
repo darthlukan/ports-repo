@@ -3,6 +3,8 @@ d:mpv
 d:telegram
 d:lxappearance
 d:i3
+d:python-psutil
+d:sysinfo
 d:dunst
 d:ranger
 f:324d60872a71e80547c3bce809c3c3ba:openbox-theme-silence-arch/.md5sum
@@ -22,6 +24,13 @@ f:3b9512d3f15ad3f787d236ab00f999e9:lxappearance/.footprint
 f:5754692d701d89935d6d8bb0c0dbe2da:i3/.md5sum
 f:47591f1c65aa57c6902ae4b7b3b6f09f:i3/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
+f:4c8b8a2b5673162f1b0853813dd997f1:python-psutil/.md5sum
+f:0ed4bf0e8f57fd924594f633e04878eb:python-psutil/Pkgfile
+f:ba2158b8966f83e750b8d166c32d7114:python-psutil/.footprint
+f:9246c645816208cfe1ef1bcc33c6762a:sysinfo/.md5sum
+f:87c687868fd42051431bf7917fd5cfff:sysinfo/Pkgfile
+f:e05590b663d62249d50c3dcf1077a1a0:sysinfo/.footprint
+f:066f929b9b5ad17b49a6e17343864fd8:sysinfo/sysinfo.sh
 f:f2ec91ab277c8294e073c36911428637:dunst/.md5sum
 f:3d55120cd1165e6f3a3ef9a15120a079:dunst/Pkgfile
 f:df479e8ee9ababd3b967a2b32c9ef10e:dunst/.footprint

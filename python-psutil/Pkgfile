@@ -1,0 +1,15 @@
+# Description: A cross-platform process and system utilities module for Python
+# URL: https://github.com/giampaolo/psutil
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: python gcc
+
+name=python-psutil
+version=3.2.1
+release=1
+source=(https://github.com/giampaolo/psutil/archive/release-$version.zip)
+
+build() {
+	cd psutil-release-$version
+    python setup.py install --root=$PKG --prefix=/usr
+    rm -rf $PKG/usr/lib/python*/site-packages/psutil-*.egg-info
+}

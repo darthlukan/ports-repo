@@ -1,0 +1,17 @@
+# Description: A simple Python script for sending system information to STDOUT. For use in Docks and Status bars.
+# URL: https://github.com/darthlukan/sysinfo
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: python python-psutil
+
+name=sysinfo
+version=1.0
+release=1
+source=(https://github.com/darthlukan/$name/archive/$version.zip sysinfo.sh)
+
+build() {
+	cd $name-$version
+    mkdir -p $PKG/usr/lib/python2.7/site-packages
+    install -D -m 755 $name.py $PKG/usr/lib/python2.7/site-packages/$name.py
+    install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
+    rm LICENSE README.md example_i3bar.png
+}
