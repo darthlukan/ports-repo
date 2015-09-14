@@ -1,11 +1,11 @@
 # Description: Simple Window Manager
 # URL: https://github.com/dcat/swm
 # Maintainer: Brian Tomlinson, darthlukan at gmail dot com
-# Depends on:
+# Depends on: xorg-libxcb 
 
 name=swm
 version=1.0
-release=1
+release=2
 source=(https://github.com/dcat/$name/archive/v$version.zip)
 
 build() {
