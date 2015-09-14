@@ -1,0 +1,16 @@
+# Description: Simple Window Manager
+# URL: https://github.com/dcat/swm
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:
+
+name=swm
+version=1.0
+release=1
+source=(https://github.com/dcat/$name/archive/v$version.zip)
+
+build() {
+    cd $name-$version
+    mkdir -p $PKG/usr/bin
+    make
+    make DESTDIR=$PKG PREFIX=/usr install
+}

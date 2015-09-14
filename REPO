@@ -4,6 +4,7 @@ d:telegram
 d:lxappearance
 d:i3
 d:python-psutil
+d:swm
 d:sysinfo
 d:dunst
 d:ranger
@@ -27,6 +28,9 @@ f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
 f:4c8b8a2b5673162f1b0853813dd997f1:python-psutil/.md5sum
 f:0ed4bf0e8f57fd924594f633e04878eb:python-psutil/Pkgfile
 f:ba2158b8966f83e750b8d166c32d7114:python-psutil/.footprint
+f:d6bcfb68d3132bc82c4ed7188b0464c6:swm/.md5sum
+f:4b8747e76d3ab64412382d361cdeb4ac:swm/Pkgfile
+f:944c3117a0c0ba6361aa9608ba024e0c:swm/.footprint
 f:9246c645816208cfe1ef1bcc33c6762a:sysinfo/.md5sum
 f:87c687868fd42051431bf7917fd5cfff:sysinfo/Pkgfile
 f:e05590b663d62249d50c3dcf1077a1a0:sysinfo/.footprint
