@@ -1,0 +1,54 @@
+# Description: Pager that can also be used as a text-based web browser
+# URL:         http://w3m.sourceforge.net/
+# Maintainer:    Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:  boehm-gc, xorg-libx11
+
+name=w3m
+version=0.5.3
+release=3
+source=(http://downloads.sourceforge.net/project/$name/$name/$name-$version/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    sed -i s/showaudio/mplayer/ config.h.in
+    sed -i '836d' main.c # function type is void
+    sed -i 's/file_handle/file_foo/' istream.{c,h}
+
+    ./configure LIBS=-lX11 \
+        --prefix=/usr \
+        --libexecdir=/usr/lib \
+        --mandir=/usr/man \
+        --disable-gopher \
+        --disable-japanese \
+        --disable-kanjisymbols \
+        --disable-m17n \
+        --disable-messagel10n \
+        --disable-nls \
+        --disable-nntp \
+        --disable-unicode \
+        --disable-xface \
+        --enable-image \
+        --enable-alarm \
+        --enable-ansi-color \
+        --enable-bgcolor \
+        --enable-color \
+        --enable-cookie \
+        --enable-dict \
+        --enable-digest-auth \
+        --enable-external-uri-loader \
+        --enable-help-cgi \
+        --enable-history \
+        --enable-ipv6 \
+        --enable-keymap=w3m \
+        --enable-menu \
+        --enable-mouse \
+        --enable-sslverify \
+        --enable-w3mmailer \
+        --with-gc
+    make
+    make DESTDIR=$PKG install 
+
+    rm -rf $PKG/usr/man/ja*
+    rm -rf $PKG/usr/share/locale/
+}

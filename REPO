@@ -1,4 +1,5 @@
 d:openbox-theme-silence-arch
+d:w3m
 d:mpv
 d:telegram
 d:lxappearance
@@ -11,6 +12,9 @@ d:ranger
 f:324d60872a71e80547c3bce809c3c3ba:openbox-theme-silence-arch/.md5sum
 f:1603e0b03b9ab9dac15dee794d54d116:openbox-theme-silence-arch/Pkgfile
 f:42e6981b066383edf64d519c1a92a71c:openbox-theme-silence-arch/.footprint
+f:b4634d9767b1c896a649c8dac6a46a79:w3m/.md5sum
+f:c777412034219e9f8c228d9ae526b688:w3m/Pkgfile
+f:271e58d232ea0fff151866469e477659:w3m/.footprint
 f:9eee29a672116be00f882d9f82719a79:mpv/.md5sum
 f:5264c7538bf4c1ba74aa858e43c6c49c:mpv/Pkgfile
 f:a4cc7d05d5e4f18357410ba6be6317ff:mpv/.footprint
