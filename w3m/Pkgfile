@@ -26,9 +26,9 @@ build() {
         --disable-messagel10n \
         --disable-nls \
         --disable-nntp \
-        --disable-unicode \
         --disable-xface \
-        --enable-image \
+        --disable-mouse \
+        --enable-image=x11,fb \
         --enable-alarm \
         --enable-ansi-color \
         --enable-bgcolor \
@@ -42,10 +42,12 @@ build() {
         --enable-ipv6 \
         --enable-keymap=w3m \
         --enable-menu \
-        --enable-mouse \
         --enable-sslverify \
         --enable-w3mmailer \
-        --with-gc
+        --enable-unicode \
+        --with-gc \
+        --with-imagelib=imlib2 \
+        --with-termlib=ncurses
     make
     make DESTDIR=$PKG install 
 
