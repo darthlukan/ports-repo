@@ -1,16 +1,19 @@
 # Description: Simple Window Manager
 # URL: https://github.com/dcat/swm
 # Maintainer: Brian Tomlinson, darthlukan at gmail dot com
-# Depends on: xorg-libxcb 
+# Depends on: xorg-libxcb
 
 name=swm
 version=1.0
-release=2
-source=(https://github.com/dcat/$name/archive/v$version.zip)
+release=3
+source=(https://github.com/dcat/$name/archive/v$version.zip config.h)
 
 build() {
     cd $name-$version
+    # If you don't want my config.h, comment the next line
+    cp $SRC/config.h .
     mkdir -p $PKG/usr/bin
+    
     make
     make DESTDIR=$PKG PREFIX=/usr install
 }
