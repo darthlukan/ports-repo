@@ -2,6 +2,7 @@ d:openbox-theme-silence-arch
 d:w3m
 d:mpv
 d:telegram
+d:tinywm
 d:lxappearance
 d:i3
 d:python-psutil
@@ -24,6 +25,9 @@ f:bfcb133256526346951dc04eb3b5b86c:telegram/Pkgfile
 f:b20b0c7b7d2bee71bc24c1e4c86da0b7:telegram/.footprint
 f:79b472a91cdc393592e191a7c6566d74:telegram/telegram.desktop
 f:be8b553d4a8e74887326e3737baef0f9:telegram/telegram.sh
+f:7e4a224ee3a06892e0282e00196e18b5:tinywm/.md5sum
+f:5a2422b9530de4ffb5d27b8d8a720517:tinywm/Pkgfile
+f:fbd92f70bf4285243248fe159d1bc5b6:tinywm/.footprint
 f:93d93ec2594d20018838f1de82a13d8b:lxappearance/.md5sum
 f:f7d670635fc94e4ddd9ed796c80ccd7e:lxappearance/Pkgfile
 f:3b9512d3f15ad3f787d236ab00f999e9:lxappearance/.footprint
