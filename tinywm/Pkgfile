@@ -1,0 +1,18 @@
+# Description: The tiniest window manager
+# URL: http://incise.org/tinywm.html
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: xorg-libx11
+
+name=tinywm
+version=1.3
+release=1
+source=(https://github.com/mackstann/$name/archive/$version.zip)
+
+build() {
+	cd $name-$version
+
+    make PREFIX=$PKG/usr all
+    install -Dm755 tinywm $PKG/usr/bin/tinywm
+
+    rm COPYING tinywm.py annotated.c
+}
