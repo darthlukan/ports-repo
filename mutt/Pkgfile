@@ -1,0 +1,35 @@
+# Description: Text-based email client that sucks less, with sidebar patch.
+# URL:         http://www.mutt.org
+# Maintainer:  Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:  gdbm ncurses openssl zlib
+
+name=mutt
+version=1.5.24
+release=2
+source=(https://bitbucket.org/mutt/mutt/downloads/$name-$version.tar.gz patch-1.5.24.sidebar.txt)
+
+build () {
+    cd $name-$version
+
+    patch -p1 -i $SRC/patch-1.5.24.sidebar.txt
+    sed -i "s/am__api_version='1.14'/am__api_version='1.15'/g" configure
+
+    ./configure --prefix=/usr \
+                --mandir=/usr/man \
+                --with-docdir=/usr/share/mutt \
+                --with-mailpath=/var/spool/mail \
+                --enable-pop \
+                --enable-imap \
+                --with-ssl \
+                --enable-hcache \
+                --disable-nls \
+
+    make
+    make DESTDIR=$PKG install
+
+    find $PKG/usr/share/mutt/* ! -name manual.txt -delete
+    rm $PKG/usr/etc/{Muttrc,mime.types}.dist 
+    rm $PKG/usr/bin/{flea,muttbug}
+    rm $PKG/usr/man/man1/{flea.1,muttbug.1}
+    rm $PKG/usr/man/man5/{mmdf.5,mbox.5}
+}
