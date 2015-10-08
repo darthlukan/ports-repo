@@ -10,6 +10,7 @@ d:swm
 d:sysinfo
 d:dunst
 d:fish-git
+d:mutt
 d:ranger
 f:324d60872a71e80547c3bce809c3c3ba:openbox-theme-silence-arch/.md5sum
 f:1603e0b03b9ab9dac15dee794d54d116:openbox-theme-silence-arch/Pkgfile
@@ -51,6 +52,10 @@ f:df479e8ee9ababd3b967a2b32c9ef10e:dunst/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:fish-git/.md5sum
 f:e2f1babd8df9ebbe1e1ed181d9171a2e:fish-git/Pkgfile
 f:fa011ecebaea0d58eda984619f02afb7:fish-git/.footprint
+f:9b9b0c557248a4819e38d2b2a67749a0:mutt/.md5sum
+f:16c2cd5dc07884e9aaa76003b2b0d762:mutt/Pkgfile
+f:f2b8f9b8a3b1148f416ecbe5f8bca261:mutt/patch-1.5.24.sidebar.txt
+f:d1011ffb12997621b60f2cf476dfbdaf:mutt/.footprint
 f:98bb1c80286d06ecae8f843cc7bfedca:ranger/.md5sum
 f:4e740e7677590fed77b718313a3b7da8:ranger/Pkgfile
 f:e5204c4153bc32d416b33d2132c98850:ranger/.footprint
