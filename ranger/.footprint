@@ -5,7 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/ranger-1.7.1-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/ranger-1.7.2-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/ranger/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/ranger/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/ranger/__init__.pyc
@@ -269,6 +269,7 @@ drwxr-xr-x	root/root	usr/share/doc/ranger/examples/
 -rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_chmod_keybindings.py
 -rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_file_filter.py
 -rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_hello_world.py
+-rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_ipc.py
 -rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_linemode.py
 -rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_new_macro.py
 -rw-rw-rw-	root/root	usr/share/doc/ranger/examples/plugin_new_sorting_method.py
