@@ -21,8 +21,8 @@ f:271e58d232ea0fff151866469e477659:w3m/.footprint
 f:9eee29a672116be00f882d9f82719a79:mpv/.md5sum
 f:ead11bb80845f6efebd131fefe7bd4a3:mpv/Pkgfile
 f:a4cc7d05d5e4f18357410ba6be6317ff:mpv/.footprint
-f:d90cca6fc3e5c7487dc574e9388f02d1:telegram/.md5sum
-f:bfcb133256526346951dc04eb3b5b86c:telegram/Pkgfile
+f:5a0c488fb99aeb195802f5d50523e092:telegram/.md5sum
+f:333f3d44022978a534fa1e2e47c60522:telegram/Pkgfile
 f:b20b0c7b7d2bee71bc24c1e4c86da0b7:telegram/.footprint
 f:79b472a91cdc393592e191a7c6566d74:telegram/telegram.desktop
 f:be8b553d4a8e74887326e3737baef0f9:telegram/telegram.sh
@@ -56,7 +56,7 @@ f:9b9b0c557248a4819e38d2b2a67749a0:mutt/.md5sum
 f:16c2cd5dc07884e9aaa76003b2b0d762:mutt/Pkgfile
 f:f2b8f9b8a3b1148f416ecbe5f8bca261:mutt/patch-1.5.24.sidebar.txt
 f:d1011ffb12997621b60f2cf476dfbdaf:mutt/.footprint
-f:98bb1c80286d06ecae8f843cc7bfedca:ranger/.md5sum
-f:4e740e7677590fed77b718313a3b7da8:ranger/Pkgfile
-f:e5204c4153bc32d416b33d2132c98850:ranger/.footprint
+f:57160400377a6a52870cb97c55054ff3:ranger/.md5sum
+f:e10b94b010c424b1541fd4749b3ef22d:ranger/Pkgfile
+f:4a831f7a33b95d44742ed270af412059:ranger/.footprint
 f:940bbb90bcc2be11b0bd8e654f2b13f8:darthlukan.httpup
