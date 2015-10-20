@@ -10,6 +10,7 @@ d:swm
 d:sysinfo
 d:yajl
 d:dunst
+d:libxkbcommon
 d:fish-git
 d:mutt
 d:ranger
@@ -53,6 +54,9 @@ f:1884d7eb9e16a1149157ab8e67651855:yajl/.footprint
 f:f2ec91ab277c8294e073c36911428637:dunst/.md5sum
 f:3d55120cd1165e6f3a3ef9a15120a079:dunst/Pkgfile
 f:df479e8ee9ababd3b967a2b32c9ef10e:dunst/.footprint
+f:7b9e043e66edf3604ab7644118b16035:libxkbcommon/.md5sum
+f:b4c9cc95d53c88f43a8237bba4886f98:libxkbcommon/Pkgfile
+f:9587ece0230766f0cb931e15612fdffc:libxkbcommon/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:fish-git/.md5sum
 f:e2f1babd8df9ebbe1e1ed181d9171a2e:fish-git/Pkgfile
 f:fa011ecebaea0d58eda984619f02afb7:fish-git/.footprint

@@ -1,0 +1,17 @@
+# Description:library to handle keyboard descriptions
+# URL: http://xkbcommon.org
+# Maintainer: Daryl Fonseca-Holt, wyatt at prairieturtle dot ca
+# Packager: same
+# Depends on: xkeyboard-config
+
+name=libxkbcommon
+version=0.5.0
+release=1
+source=(http://xkbcommon.org/download/libxkbcommon-0.5.0.tar.xz)
+
+build() {
+	cd $name-$version
+    ./configure --prefix=/usr         --mandir=/usr/man        
+    make
+    make DESTDIR=$PKG install
+}
