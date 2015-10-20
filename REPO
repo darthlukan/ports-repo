@@ -8,6 +8,7 @@ d:i3
 d:python-psutil
 d:swm
 d:sysinfo
+d:yajl
 d:dunst
 d:fish-git
 d:mutt
@@ -46,6 +47,9 @@ f:9246c645816208cfe1ef1bcc33c6762a:sysinfo/.md5sum
 f:87c687868fd42051431bf7917fd5cfff:sysinfo/Pkgfile
 f:e05590b663d62249d50c3dcf1077a1a0:sysinfo/.footprint
 f:066f929b9b5ad17b49a6e17343864fd8:sysinfo/sysinfo.sh
+f:a7f19613448d187b41de06a1b1a76fb9:yajl/.md5sum
+f:cf35d3d1ed3b7a50eb3579342e125221:yajl/Pkgfile
+f:1884d7eb9e16a1149157ab8e67651855:yajl/.footprint
 f:f2ec91ab277c8294e073c36911428637:dunst/.md5sum
 f:3d55120cd1165e6f3a3ef9a15120a079:dunst/Pkgfile
 f:df479e8ee9ababd3b967a2b32c9ef10e:dunst/.footprint
