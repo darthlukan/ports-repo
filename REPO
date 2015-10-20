@@ -5,6 +5,7 @@ d:telegram
 d:tinywm
 d:lxappearance
 d:i3
+d:libxdg-basedir
 d:python-psutil
 d:swm
 d:sysinfo
@@ -37,6 +38,9 @@ f:3b9512d3f15ad3f787d236ab00f999e9:lxappearance/.footprint
 f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
 f:133f80a93d516bf3cfc5cbce5626d44e:i3/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
+f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
+f:a72918a461aca3f608c5bd07dd7e2373:libxdg-basedir/Pkgfile
+f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:4c8b8a2b5673162f1b0853813dd997f1:python-psutil/.md5sum
 f:0ed4bf0e8f57fd924594f633e04878eb:python-psutil/Pkgfile
 f:ba2158b8966f83e750b8d166c32d7114:python-psutil/.footprint
