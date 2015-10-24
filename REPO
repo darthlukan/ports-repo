@@ -4,6 +4,7 @@ d:mpv
 d:telegram
 d:tinywm
 d:lxappearance
+d:iim
 d:i3
 d:libxdg-basedir
 d:python-psutil
@@ -35,6 +36,9 @@ f:fbd92f70bf4285243248fe159d1bc5b6:tinywm/.footprint
 f:93d93ec2594d20018838f1de82a13d8b:lxappearance/.md5sum
 f:f7d670635fc94e4ddd9ed796c80ccd7e:lxappearance/Pkgfile
 f:3b9512d3f15ad3f787d236ab00f999e9:lxappearance/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:iim/.md5sum
+f:7b81f65471be3274a4bb30c48f3194f4:iim/Pkgfile
+f:d8dead00a35c08c161c626266d360be9:iim/.footprint
 f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
 f:133f80a93d516bf3cfc5cbce5626d44e:i3/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint

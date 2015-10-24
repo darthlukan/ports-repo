@@ -1,0 +1,27 @@
+# Description: ii improved
+# URL: https://github.com/c00kiemon5ter/iim
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:
+
+name=iim
+version=git-07e1cc8
+release=1
+source=()
+gitsource=https://github.com/c00kiemon5ter/iim.git
+sversion=07e1cc8
+
+build() {
+    if cd $name; then
+        git reset --hard
+        git pull $gitsource
+    else
+        git clone $gitsource $name
+        cd $name
+    fi
+
+    git checkout $sversion
+
+    make iim CFLAGS="-std=c99 $CFLAGS" LDFLAGS="-s"
+    
+    install -Dm755 iim $PKG/usr/bin/iim
+}
