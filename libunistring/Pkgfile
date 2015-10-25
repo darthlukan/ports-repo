@@ -1,0 +1,18 @@
+# Description: Manipulate unicode and C strings according to the Unicode Standard.
+# URL: http//www.gnu.org/software/libunistring
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:
+
+name=libunistring
+version=0.9.5
+release=1
+source=(http://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    ./configure --prefix=/usr --mandir=/usr/man
+    make
+    make DESTDIR=$PKG install
+    rm -rf $PKG/usr/share
+    rm -rf $PKG/usr/info
+}
