@@ -1,0 +1,18 @@
+# Description: Jabber client library
+# URL: http://groups.google.com/group/loudmouth-dev
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:
+
+name=loudmouth
+version=1.4.3
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/1.4/$name-$version.tar.bz2
+        glib-single-include.patch)
+
+build() {
+	cd $name-$version
+    patch -p1 < $SRC/glib-single-include.patch
+    ./configure --prefix=/usr --with-ssl=openssl
+    make
+    make DESTDIR=$PKG install
+}
