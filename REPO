@@ -5,6 +5,7 @@ d:mpv
 d:telegram
 d:tinywm
 d:lxappearance
+d:mcabber
 d:iim
 d:i3
 d:libxdg-basedir
@@ -43,6 +44,9 @@ f:fbd92f70bf4285243248fe159d1bc5b6:tinywm/.footprint
 f:93d93ec2594d20018838f1de82a13d8b:lxappearance/.md5sum
 f:f7d670635fc94e4ddd9ed796c80ccd7e:lxappearance/Pkgfile
 f:3b9512d3f15ad3f787d236ab00f999e9:lxappearance/.footprint
+f:cd7c17e5ffa4218cfa53f1ff659068e1:mcabber/.md5sum
+f:e6d8a186a0cdac446aad5b0a932a5450:mcabber/Pkgfile
+f:865ce5e89840b04090dbab2c9e0228c7:mcabber/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:iim/.md5sum
 f:7b81f65471be3274a4bb30c48f3194f4:iim/Pkgfile
 f:d8dead00a35c08c161c626266d360be9:iim/.footprint
