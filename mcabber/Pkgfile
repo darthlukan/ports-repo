@@ -1,0 +1,17 @@
+# Description: A small XMPP (Jabber) console client
+# URL: http://mcabber.com
+# Maintainer: Brian Tomlinson, darthlukan at gmail dot com
+# Depends on: loudmouth
+
+name=mcabber
+version=1.0.0
+release=1
+source=(http://mcabber.com/files/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+    rm -rf $PKG/usr/share/mcabber/help
+}
