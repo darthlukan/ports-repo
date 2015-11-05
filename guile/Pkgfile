@@ -4,9 +4,9 @@
 # Depends on: gc libunistring libffi
 
 name=guile
-version=2.0.11
+version=2.1.1
 release=1
-source=(ftp://ftp.gnu.org/pub/gnu/$name/$name-$version.tar.xz)
+source=(http://alpha.gnu.org/gnu/$name/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
