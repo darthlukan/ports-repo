@@ -90,9 +90,9 @@ f:d1011ffb12997621b60f2cf476dfbdaf:mutt/.footprint
 f:57160400377a6a52870cb97c55054ff3:ranger/.md5sum
 f:e10b94b010c424b1541fd4749b3ef22d:ranger/Pkgfile
 f:4a831f7a33b95d44742ed270af412059:ranger/.footprint
-f:8f33e352b0096a29e10e49732e0d8b08:guile/.md5sum
-f:494fa371999f97e0159e86fed0e0e493:guile/Pkgfile
-f:f5ab800218b030b81e5a5841b8f14796:guile/.footprint
+f:0c2a1610284446e0266142b3360c0e4c:guile/.md5sum
+f:16bd41b3e4ff596f0f3550a837413a33:guile/Pkgfile
+f:64ffbd7bcb355676a2b68a96fbe712ea:guile/.footprint
 f:41cd6092bf34e98ef6f67b3f55c17664:texinfo/.md5sum
 f:495e2bf3b65d6c41fed09a1dfd01ae9b:texinfo/Pkgfile
 f:862af2cfb6c3b7c79c9c62c7c7ca64ea:texinfo/.footprint
