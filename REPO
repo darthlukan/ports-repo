@@ -91,7 +91,7 @@ f:57160400377a6a52870cb97c55054ff3:ranger/.md5sum
 f:e10b94b010c424b1541fd4749b3ef22d:ranger/Pkgfile
 f:4a831f7a33b95d44742ed270af412059:ranger/.footprint
 f:0c2a1610284446e0266142b3360c0e4c:guile/.md5sum
-f:16bd41b3e4ff596f0f3550a837413a33:guile/Pkgfile
+f:c409d55eab648ab8b732947b2b513eb6:guile/Pkgfile
 f:64ffbd7bcb355676a2b68a96fbe712ea:guile/.footprint
 f:41cd6092bf34e98ef6f67b3f55c17664:texinfo/.md5sum
 f:495e2bf3b65d6c41fed09a1dfd01ae9b:texinfo/Pkgfile
