@@ -1,11 +1,11 @@
 # Description: Guile is an interpreter and compiler for the Scheme programming language.
 # URL: http://www.gnu.org/software/guile/guile.html
 # Maintainer: Brian Tomlinson, darthlukan at gmail dot com
-# Depends on: gc libunistring libffi
+# Depends on: boehm-gc libunistring libffi
 
 name=guile
 version=2.1.1
-release=1
+release=2
 source=(http://alpha.gnu.org/gnu/$name/$name-$version.tar.xz)
 
 build() {
